@@ -1,4 +1,5 @@
 import kopf
+import kopf.cli
 import kubernetes.client
 from kubernetes.client.rest import ApiException
 from kubernetes import config
@@ -203,3 +204,6 @@ def deep_get(dictionary, keys, default=None):
 
 def str2bool(v):
   return v.lower() in ("yes", "true", "t", "1")
+
+if __name__ == "__main__":
+    kopf.cli.run()
