@@ -67,6 +67,7 @@ spec:
                         - "Off"
                         - "Initial"
                         - "Recreate"
+                        - "InPlaceOrRecreate"
   scope: Namespaced
   names:
     plural: autovpaconfigs
