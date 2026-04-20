@@ -16,8 +16,8 @@ py_binary(
 image_push(
     name = "push",
     image = "index",
-    registry = "index.docker.io",
-    repository = "doomstar/autovpa",
+    registry = "ghcr.io",
+    repository = "rpwoodbu/autovpa",
     tag = "latest",
 )
 

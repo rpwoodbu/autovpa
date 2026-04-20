@@ -16,7 +16,7 @@ spec:
       serviceAccountName: autovpa-operator
       containers:
         - name: autovpa-operator
-          image: doomstar/autovpa:latest
+          image: ghcr.io/rpwoodbu/autovpa:latest
           imagePullPolicy: Always
           args:
             - '--all-namespaces'
