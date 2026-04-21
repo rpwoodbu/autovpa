@@ -6,7 +6,7 @@ metadata:
   namespace: default
 spec:
   updatePolicy:
-    # "Off", "Initial", "Recreate", and "Auto".
+    # "Off", "Initial", "Recreate", "InPlaceOrRecreate", and "Auto".
     updateMode: Off
     minReplicas: 1
   resourcePolicy:
